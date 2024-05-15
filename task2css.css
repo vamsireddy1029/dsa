@@ -1,0 +1,99 @@
+.starting {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.starting:hover {
+    transform: scale(1.02);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: rotate(360deg);
+}
+
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.para1 {
+    font-weight: bold;
+}
+
+.head {
+    font-size: 20px;
+}
+
+.linkedin {
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.linkedin:hover {
+    color: darkblue;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; 
+    left: 50%;
+    margin-left: -70px; 
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
