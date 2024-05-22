@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="starting">
+        <div class="student-profile">
+            <div class="profile-header">
+                <img src="C:\Users\ADMIN\OneDrive\Desktop\studentprofile.jpg" class="profile-photo" alt="Vamsi Reddy's Photo">
+                <h1 id="name"></h1>
+            </div>
+            <div class="profile-details">
+                <p class="para">College: <span id="college" class="para1"></span></p>
+                <p class="para">Course: <span id="course" class="para1"></span></p>
+                <p class="para">Year: <span id="year" class="para1"></span></p>
+                <p class="para">Email: <span id="email" class="para1"></span></p>
+                <p class="para">Phone: <span id="phone" class="para1"></span></p>
+            </div>
+        </div>
+        <div class="form-section">
+            <h3 class="head">Update Profile</h3>
+            <form id="profileForm">
+                <label for="nameInput">Student Name:</label>
+                <input type="text" id="nameInput" name="name"><br><br>
+                <label for="collegeInput">College:</label>
+                <input type="text" id="collegeInput" name="college"><br><br>
+                <label for="courseInput">Course:</label>
+                <input type="text" id="courseInput" name="course"><br><br>
+                <label for="yearInput">Year:</label>
+                <input type="text" id="yearInput" name="year"><br><br>
+                <label for="emailInput">Email:</label>
+                <input type="email" id="emailInput" name="email"><br><br>
+                <label for="phoneInput">Phone:</label>
+                <input type="text" id="phoneInput" name="phone"><br><br>
+                <div class="buttonnn">
+                    <button type="button" onclick="updateProfile()">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
